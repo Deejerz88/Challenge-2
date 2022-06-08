@@ -4,7 +4,7 @@
   --main-text: rgb(6, 44, 95);
   --nav-font: ---dark-accent;
   --dark-accent: rgb(6, 44, 95);
-  --textShadow: 0 0 5px rgb(114, 107, 107);
+  --text-shadow: 0 0 5px rgb(114, 107, 107);
 }
 
 .centered {
@@ -75,7 +75,7 @@ header {
   position: sticky;
   top: 0;
   box-shadow: 0 0 10px black;
-  text-shadow: var(--textShadow);
+  text-shadow: var(--text-shadow);
   z-index: 1000;
 }
 
@@ -117,7 +117,7 @@ h2 {
   color: var(--dark-accent);
   font-weight: 800;
   font-size: 36pt;
-  text-shadow: 0 0 5px var(--textShadow);
+  text-shadow: 0 0 5px var(--text-shadow);
 }
 
 hr {
