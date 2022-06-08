@@ -175,7 +175,6 @@ article:hover {
 #work h2 {
   margin: 200px 30px 0 20%;
   text-align: right;
-  font-size: 40pt;
 }
 
 #vr {
@@ -368,23 +367,32 @@ textarea:focus {
   section span {
     font-size: 300%;
   }
+
+  #work h2 {
+    margin-left: 2vw;
+  }
+  h2 {
+    font-size: 30pt;
+  }
 }
 
-@media screen and (max-width:420px) {
-  nav a{
-    font-size: 70%
+@media screen and (max-width: 500px) {
+  nav a {
+    font-size: 70%;
   }
-  nav{
-    margin-top:20px
+  nav {
+    margin-top: 20px;
   }
 
-  header{
-    height: 90px
+  header {
+    height: 90px;
   }
-  #profile{
-    display:block;
+  #profile {
+    display: block;
     float: none;
+    margin: 0 auto;
   }
-  
+  form {
+    width: 300px;
+  }
 }
-
